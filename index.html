@@ -16,41 +16,42 @@
       href="https://devchallenges.io/"
     />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
 
     <title>My Gallery</title>
   </head>
   <body>
-    <div>
-      <img src="assets/profilePhoto.png" alt="Rodney Cotton Profile Photo">
-      <p>Rodney Cotton</p>
-      <p>Helsinki, Finland</p>
-    </div>
+    <div class="container">
+      <div class="profile-info">
+        <img src="assets/profilePhoto.png" alt="Rodney Cotton Profile Photo">
+        <p>Rodney Cotton</p>
+        <p>Helsinki, Finland</p>
+      </div>
 
-    <div>
-      <div>
-        <p>100 <br> <span>Post</span></p>
+      <div class="profile-stats">
+        <div>
+          <p>100 <br> <span>Post</span></p>
+        </div>
+        <div>
+          <p>2,242 <br> <span>Followers</span></p>
+        </div>
+        <div>
+          <p>1,432 <br> <span>Following</span> </p>
+        </div>
       </div>
-      <div>
-        <p>2,242 <br> <span>Followers</span></p>
-      </div>
-      <div>
-        <p>1,432 <br> <span>Following</span> </p>
-      </div>
-    </div>
 
-    <div>
-      <img src="assets/photo1.png" alt="">
-      <img src="assets/photo2.png" alt="">
-      <img src="assets/photo3.png" alt="">
-      <img src="assets/photo_4.png" alt="">
-      <img src="assets/photo5.png" alt="">
-      <img src="assets/photo6.png" alt="">
+      <div class="photos-container">
+        <img src="assets/photo1.png" alt="" class="item-1">
+        <img src="assets/photo2.png" alt="" class="item-2">
+        <img src="assets/photo3.png" alt="" class="item-3">
+        <img src="assets/photo_4.png" alt="" class="item-4">
+        <img src="assets/photo5.png" alt="" class="item-5">
+        <img src="assets/photo6.png" alt="" class="item-6">
+      </div>
     </div>
     <footer>
       <p>created by <span class="bold">Poncho Ramos</span> - devChallenges.io</p>
